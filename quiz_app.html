@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="user-scalable=no, width=device-width" />
+    <!--user shouldn't be able to zoom in and zoom out-->
+    <!--so that the web app fits nicely on phone screen-->
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <title>Question Time</title>
+    <script type="text/javascript" src="json/questions.json"></script>
+
+<body>
+    <div id="header">
+        <h1>Question Time<br>The Quiz App</h1>
+    </div>
+
+    <!--Display quiz here-->
+    <div class="quiz-wrapper">
+        <div id="quiz"></div>
+    </div>
+
+    <!--performs user interaction requirements for quiz app-->
+    <button id="previous">
+        <p>Previous Question</p>
+    </button>
+    <button id="next">
+        <p>Next Question</p>
+    </button>
+    <button id="submit">
+        <p>Submit Quiz</p>
+    </button>
+
+    <!--display results-->
+    <div id="results"></div>
+
+    <!--countdown timer-->
+
+    <h2>Countdown Timer</h2>
+    <div id="clockdiv">
+        <!-- //The wrapper where the countdown timer will reside -->
+        <div>
+            <div class="smalltext">Minutes</div>
+            <!-- // A label to show where ‘Minutes’ will be displayed -->
+            <span class="minutes"></span>
+            <!-- //This is where the number of minutes for our countdown will reside -->
+        </div>
+        <div>
+            <div class="smalltext">Seconds</div>
+            <!-- // A label to show where ‘Seconds’ will be displayed -->
+            <span class="seconds"></span>
+            <!-- //This is where the number of seconds for our countdown will reside -->
+        </div>
+    </div>
+
+
+    <div id="footer">
+        <h5>Written by Romer Jasen &copy Copyright October 2023</h5>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
