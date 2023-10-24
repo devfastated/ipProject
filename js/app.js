@@ -140,8 +140,29 @@ data = [
         correctAnswer: "c"
     }
 ];
+// 20 questions muna
+// data is an array containing multiple objects.
+// Each object represents a quiz question. Each question object has three properties:
+// question: A string representing the actual question.
+// answers: An object with answer options labeled 'a', 'b', 'c', and 'd'.
+// correctAnswer: A string indicating the correct answer, 
+// corresponding to one of the keys in the answers object.
+
+const quizBox = document.getElementById('quiz');
+const resultsBox = document.getElementById('results');
+const submitButton = document.getElementById('submit');
+
+const myQuestions = [];
+for (i = 0; i < data.length; i++) {
+    myQuestions.push(data[i]);
+}
+
+function(x, y) => {
+    
+}
 
 function buildQuiz() {
+    //created build quiz function
     const output = [];
     myQuestions.forEach(
         (currentQuestion, questionNumber) => {
@@ -213,14 +234,7 @@ function showPreviousSlide() {
 }
 
 
-const quizBox = document.getElementById('quiz');
-const resultsBox = document.getElementById('results');
-const submitButton = document.getElementById('submit');
 
-const myQuestions = [];
-for (i = 0; i < data.length; i++) {
-    myQuestions.push(data[i]);
-}
 
 
 buildQuiz();
