@@ -140,7 +140,7 @@ data = [
         correctAnswer: "c"
     }
 ];
-// 20 questions muna
+// 20 questions
 // data is an array containing multiple objects.
 // Each object represents a quiz question. Each question object has three properties:
 // question: A string representing the actual question.
@@ -156,6 +156,8 @@ const myQuestions = [];
 for (i = 0; i < data.length; i++) {
     myQuestions.push(data[i]);
 }
+
+document.getElementById('quizLength').innerHTML = data.length;
 
 
 function buildQuiz() {
@@ -222,6 +224,7 @@ function showSlide(n) {
         nextButton.style.display = 'inline-block';
         submitButton.style.display = 'none';
     }
+  
 }
 function showNextSlide() {
     showSlide(currentSlide + 1);
@@ -229,6 +232,10 @@ function showNextSlide() {
 function showPreviousSlide() {
     showSlide(currentSlide - 1);
 }
+
+
+
+
 
 
 
@@ -243,3 +250,6 @@ showSlide(currentSlide);
 submitButton.addEventListener('click', showResults);
 previousButton.addEventListener("click", showPreviousSlide);
 nextButton.addEventListener("click", showNextSlide);
+
+
+

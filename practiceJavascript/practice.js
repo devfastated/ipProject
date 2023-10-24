@@ -1,3 +1,4 @@
-const name = [1, 2, 3];
+let colors = ["red", "Blue"];
 
-console.log("hello")
+
+console.log(colors.length);
