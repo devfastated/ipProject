@@ -157,9 +157,6 @@ for (i = 0; i < data.length; i++) {
     myQuestions.push(data[i]);
 }
 
-function(x, y) => {
-    
-}
 
 function buildQuiz() {
     //created build quiz function
