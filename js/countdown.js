@@ -53,11 +53,12 @@ function initializeClock(id, endtime) {
 
 
 
-const deadline = new Date(Date.parse(new Date()) + 1 * 2 * 1000);
+const deadline = new Date(Date.parse(new Date()) + 1 * 60 * 1000);
 initializeClock('clockdiv', deadline);
 
 
-// kani na function kay mag reload sa page tapos mo balik sa una
+// kani  kay mag reload sa page tapos mo balik sa una
+
 const tryAgainButton = document.getElementById("tryAgain");
 // variable na mo kuha sa id sa div nga tryagain para 
 //magamit sa funtion unya ang function naay code e execute
