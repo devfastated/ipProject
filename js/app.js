@@ -1,144 +1,304 @@
 data = [
     {
-        question: "The Plaka is the oldest quarter of which city?",
+        question: "It involves determining the policies, procedures, and documentation that will be used for planning, executing, and controlling the project schedule.",
         answers: {
-            a: " Athens",
-            b: "Prague",
-            c: "Rome",
-            d: "Vienna"
+            a: "Planning Schedule Management",
+            b: "Defining Activities",
+            c: "Sequencing Activities",
+            d: "Controlling the Schedule"
         },
         correctAnswer: "a"
     },
     {
-        question: "The Plaka is the oldest quarter of which city?",
+        question: "It  involves identifying the specific activities that the project team members and stakeholders must perform to produce the project ",
         answers: {
-            a: " Athens",
-            b: "Prague",
-            c: "Rome",
-            d: "Vienna"
+            a: "Sequencing Activities",
+            b: "Defining Activities",
+            c: "Estimating activity durations",
+            d: "Planning Schedule Management"
         },
         correctAnswer: "c"
     },
     {
-        question: "The Plaka is the oldest quarter of which city?",
+        question: " identifying and documenting the relationships between project activities. Requirements, a resource breakdown structure, and project documents updates.",
         answers: {
-            a: " Athens",
-            b: "Prague",
-            c: "Rome",
-            d: "Vienna"
+            a: "Developing the schedule",
+            b: "Defining Activities",
+            c: "Estimating activity durations",
+            d: "Sequencing Activities"
+        },
+        correctAnswer: "d"
+    },
+    {
+        question: "involves estimating the number of work periods that are needed to complete individual activities.",
+        answers: {
+            a: "Developing the Schedule",
+            b: "Estimating activity durations",
+            c: "Sequencing Activities",
+            d: "Defining Activities"
+        },
+        correctAnswer: "b"
+    },
+    {
+        question: "It involves analyzing activity sequences, resource requirements, and activity duration estimates to create the project schedule",
+        answers: {
+            a: "Developing the schedule ",
+            b: "Estimating activity durations",
+            c: "Sequencing Activities",
+            d: "Defining Activities"
+        },
+        correctAnswer: "a"
+    },
+    {
+        question: " involves controlling and managing changes to the project schedule.",
+        answers: {
+            a: "Defining Activities",
+            b: "Estimating activity durations",
+            c: "Controlling the schedule",
+            d: "Defining Activities"
         },
         correctAnswer: "c"
     },
     {
-        question: "The Plaka is the oldest quarter of which city?",
+        question: "contains project activities with estimated durations, dependencies, and other planning information that can be used to produce a project schedule",
         answers: {
-            a: " Athens",
-            b: "Prague",
-            c: "Rome",
-            d: "Vienna"
+            a: "Level of accuracy and units of measure",
+            b: "Project Schedule Model Development",
+            c: "Control thresholds",
+            d: "Reporting formats"
+        },
+        correctAnswer: "b"
+    },
+    {
+        question: " This section discusses how accurate schedule estimates should be and determines whether time is measured in hours, days, or another unit.",
+        answers: {
+            a: "Level of accuracy and units of measure",
+            b: "Control thresholds",
+            c: "Project schedule model development",
+            d: "Process descriptions"
         },
         correctAnswer: "c"
     },
     {
-        question: "The Plaka is the oldest quarter of which city?",
+        question: "Variance thresholds, such as + or - percent, are established for monitoring schedule performance. ",
         answers: {
-            a: " Athens",
-            b: "Prague",
-            c: "Rome",
-            d: "Vienna"
+            a: "Level of accuracy and units of measure",
+            b: "Rules of performance measurement",
+            c: "Project schedule model development",
+            d: "Control thresholds:"
         },
         correctAnswer: "c"
     },
     {
-        question: "The Plaka is the oldest quarter of which city?",
+        question: "What section specifies how to determine the percentages? Example, team members are expected to track the percentage of work completed,",
         answers: {
-            a: " Athens",
-            b: "Prague",
-            c: "Rome",
-            d: "Vienna"
+            a: "Reporting formats",
+            b: "Rules of performance measurement",
+            c: "Control thresholds",
+            d: "Level of accuracy and units of measure"
+        },
+        correctAnswer: "b"
+    },
+    {
+        question: "This section describes the format and frequency of schedule reports required for the project",
+        answers: {
+            a: "Reporting formats",
+            b: "Rules of performance measurement",
+            c: "Control thresholds",
+            d: "Level of accuracy and units of measure"
+        },
+        correctAnswer: "a"
+    },
+    {
+        question: "The schedule management plan also describes how all of the schedule management processes will be performed. ",
+        answers: {
+            a: "Reporting formats",
+            b: "Rules of performance measurement",
+            c: "Project Descriptions",
+            d: "Level of accuracy and units of measure"
+    },
+    correctAnswer: "c"
+    },
+    {
+        question: "It is normally has no duration",
+        answers: {
+            a: " Milestone",
+            b: "Event",
+            c: "Schedule",
+            d: "Task"
         },
         correctAnswer: "c"
     },
     {
-        question: "The Plaka is the oldest quarter of which city?",
+        question: "Is a tabulation of activities to be included on a project schedule. ",
         answers: {
-            a: " Athens",
-            b: "Prague",
-            c: "Rome",
-            d: "Vienna"
+            a: "Task",
+            b: "Activity List",
+            c: "Activity Attributes",
+            d: "Milestone"
         },
         correctAnswer: "c"
     },
     {
-        question: "The Plaka is the oldest quarter of which city?",
+        question: "Is a      of activities to be included on a project schedule. ",
         answers: {
-            a: " Athens",
-            b: "Prague",
-            c: "Rome",
-            d: "Vienna"
+            a: "Task",
+            b: "Activity List",
+            c: "Activity Attributes",
+            d: "Milestone"
         },
         correctAnswer: "c"
     },
     {
-        question: "The Plaka is the oldest quarter of which city?",
+        question: "Is a tabulation of activities to be included on a project schedule. ",
         answers: {
-            a: " Athens",
-            b: "Prague",
-            c: "Rome",
-            d: "Vienna"
+            a: "Task",
+            b: "Activity List",
+            c: "Activity Attributes",
+            d: "Milestone"
         },
         correctAnswer: "c"
     },
     {
-        question: "The Plaka is the oldest quarter of which city?",
+        question: "Is a tabulation of activities to be included on a project schedule. ",
         answers: {
-            a: " Athens",
-            b: "Prague",
-            c: "Rome",
-            d: "Vienna"
+            a: "Task",
+            b: "Activity List",
+            c: "Activity Attributes",
+            d: "Milestone"
         },
         correctAnswer: "c"
     },
     {
-        question: "The Plaka is the oldest quarter of which city?",
+        question: "Is a tabulation of activities to be included on a project schedule. ",
         answers: {
-            a: " Athens",
-            b: "Prague",
-            c: "Rome",
-            d: "Vienna"
+            a: "Task",
+            b: "Activity List",
+            c: "Activity Attributes",
+            d: "Milestone"
         },
         correctAnswer: "c"
     },
     {
-        question: "The Plaka is the oldest quarter of which city?",
+        question: "Is a tabulation of activities to be included on a project schedule. ",
         answers: {
-            a: " Athens",
-            b: "Prague",
-            c: "Rome",
-            d: "Vienna"
+            a: "Task",
+            b: "Activity List",
+            c: "Activity Attributes",
+            d: "Milestone"
         },
         correctAnswer: "c"
     },
     {
-        question: "The Plaka is the oldest quarter of which city?",
+        question: "Is a tabulation of activities to be included on a project schedule. ",
         answers: {
-            a: " Athens",
-            b: "Prague",
-            c: "Rome",
-            d: "Vienna"
+            a: "Task",
+            b: "Activity List",
+            c: "Activity Attributes",
+            d: "Milestone"
         },
         correctAnswer: "c"
     },
     {
-        question: "The Plaka is the oldest quarter of which city?",
+        question: "Is a tabulation of activities to be included on a project schedule. ",
         answers: {
-            a: " Athens",
-            b: "Prague",
-            c: "Rome",
-            d: "Vienna"
+            a: "Task",
+            b: "Activity List",
+            c: "Activity Attributes",
+            d: "Milestone"
         },
         correctAnswer: "c"
-    }
+    },
+    {
+        question: "Is a tabulation of activities to be included on a project schedule. ",
+        answers: {
+            a: "Task",
+            b: "Activity List",
+            c: "Activity Attributes",
+            d: "Milestone"
+        },
+        correctAnswer: "c"
+    },
+    {
+        question: "Is a tabulation of activities to be included on a project schedule. ",
+        answers: {
+            a: "Task",
+            b: "Activity List",
+            c: "Activity Attributes",
+            d: "Milestone"
+        },
+        correctAnswer: "c"
+    },
+    {
+        question: "Is a tabulation of activities to be included on a project schedule. ",
+        answers: {
+            a: "Task",
+            b: "Activity List",
+            c: "Activity Attributes",
+            d: "Milestone"
+        },
+        correctAnswer: "c"
+    },
+    {
+        question: "Is a tabulation of activities to be included on a project schedule. ",
+        answers: {
+            a: "Task",
+            b: "Activity List",
+            c: "Activity Attributes",
+            d: "Milestone"
+        },
+        correctAnswer: "c"
+    },
+    {
+        question: "Is a tabulation of activities to be included on a project schedule. ",
+        answers: {
+            a: "Task",
+            b: "Activity List",
+            c: "Activity Attributes",
+            d: "Milestone"
+        },
+        correctAnswer: "c"
+    },
+    {
+        question: "Is a tabulation of activities to be included on a project schedule. ",
+        answers: {
+            a: "Task",
+            b: "Activity List",
+            c: "Activity Attributes",
+            d: "Milestone"
+        },
+        correctAnswer: "c"
+    },
+    {
+        question: "Is a tabulation of activities to be included on a project schedule. ",
+        answers: {
+            a: "Task",
+            b: "Activity List",
+            c: "Activity Attributes",
+            d: "Milestone"
+        },
+        correctAnswer: "c"
+    },
+    {
+        question: "Is a tabulation of activities to be included on a project schedule. ",
+        answers: {
+            a: "Task",
+            b: "Activity List",
+            c: "Activity Attributes",
+            d: "Milestone"
+        },
+        correctAnswer: "c"
+    },
+    {
+        question: "Is a tabulation of activities to be included on a project schedule. ",
+        answers: {
+            a: "Task",
+            b: "Activity List",
+            c: "Activity Attributes",
+            d: "Milestone"
+        },
+        correctAnswer: "c"
+    },
 ];
 // 20 questions
 // data is an array containing multiple objects.
@@ -224,7 +384,7 @@ function showSlide(n) {
         nextButton.style.display = 'inline-block';
         submitButton.style.display = 'none';
     }
-  
+
 }
 function showNextSlide() {
     showSlide(currentSlide + 1);
