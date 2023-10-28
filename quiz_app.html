@@ -3,16 +3,21 @@
 
 <head>
     <meta name="viewport" content="user-scalable=no, width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!--user shouldn't be able to zoom in and zoom out-->
     <!--so that the web app fits nicely on phone screen-->
     <link rel="stylesheet" type="text/css" href="css/app.css">
-    <title>Question Time</title>
+    <link rel="icon" href="/images/ideas.png">
+    <title>Quiz App</title>
     <script type="text/javascript" src="json/questions.json"></script>
 </head>
 
 
 
 <body>
+
+    <img src="/images/speech-bubble.png" alt="">
     <!---->
     <div id="header">
         <h1><span id="quizLength"></span> Questions<br>The Quiz App</h1>
@@ -38,16 +43,18 @@
    
 
     <!--display results-->
-    <div id="results"></div>
+    
 
     <button id="tryAgain">
-        <p style="color: red;">Try Again</p>
+        <p>Try Again</p>
     </button>
 
     <!--countdown timer-->
-
+    <div id="results"></div>
     <h2>Countdown Timer</h2>
+  
     <div id="clockdiv">
+       
         <!-- //The wrapper where the countdown timer will reside -->
         <div>
             <div class="smalltext">Minutes</div>

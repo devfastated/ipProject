@@ -23,128 +23,55 @@
     src: url(/fonts/HALLOWEEN.ttf);
 }
 
-
-/* body {
-   margin: 0;
-   border: 1px solid black;
-   padding: 0px;
-   font-family: "Poppins-Regular";
-   font-size: 20px;
-   text-align: center;
-   background-color: #00FFFF;
-   overflow-x: hidden;
+@font-face {
+    font-family: "Poppins-Medium";
+    src: url(/fonts/Poppins-Medium.ttf);
 }
 
-#header {
-    border-bottom: 1px solid #666;
-    color:   #FF69B4;
-    display: block;
-    padding: 10px 0;
-    text-align: center;
 
-}
-
-#header h1{
-    font-family: "Poppins-Bold";
-    text-shadow: 3px 3px 3px black;
-    font-weight: 300;
-    margin: 0px;
-    padding: 0;
-    font-size: 25px;
-}
-
-.question{
-    font-size: 30px;
-    margin: 0 5% 2px 5%;
-}
-
-.answers{
-    margin-bottom: 10px;
-    text-align: left;
-    display: inline-block;
-}
-.answers label{
-    display: block;
-    margin-bottom: 10px;
-}
-
-button{
-
-    font-size: 18px;
-    width: 200px;
-    height: auto;
-    padding: 0px;
-    cursor: pointer;
-    border-radius: 20px;
-    margin-top: 5px;
-}
-
-button:hover{
-    color: pink;
-    background-color: black;
-    transition: 0.5s;
-}
-
-.quiz-wrapper{
-    position: relative;
-    height: 200px;
-    margin: 0;
-}
-.rad_butn{
-    transform: scale(200%);
-    margin: 0 30px 0 -20px;
-}
-
-#results{
-    margin-top: 0;
-    padding: 0;
-}
-
-.slide{
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    z-index: 1;
-    opacity: 0;
-    transition: opacity 0.5s;
-}
-
-.active-slide{
-    opacity: 1;
-    z-index: 2;
-} */
 
 body {
     margin: 0;
     padding: 0px;
-    font-family: "Poppins-Regular";
+    font-family: "Poppins-Medium";
     font-size: 20px;
     text-align: center;
-    background-color: #eee;
+    background-color: white;
     overflow-x: hidden;
 }
 
+img {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    left: 13%;
+}
+
 #header {
-    border-bottom: 1px solid #666;
-    color: #222;
+    color: #F9ED69;
     display: block;
     padding: 10px 0;
     text-align: center;
-    background-image: -webkit-gradient(linear, left top, left bottom,
-            from(#ccc), to(#999));
+    background-color: #FF2E63;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+
 }
 
 #header h1 {
-    text-shadow: 0px 1px 0px #fff;
+
     font-weight: 300;
     margin: 0px;
     padding: 10px;
     font-size: 25px;
+    font-family: "Poppins-Bold";
+    color: white;
 }
 
 .question {
     font-size: 20px;
+    color: black;
 
 }
 
@@ -165,22 +92,24 @@ button p {
 }
 
 button {
-    font-weight: 200;
+    border: 1px solid #08D9D6;
     font-size: 20px;
-    width: 300px;
+    width: 280px;
     height: 50px;
     padding: 20px;
     cursor: pointer;
-    border-radius: 3px;
-    color: #fff;
-    background-image: -webkit-gradient(linear, left top, left bottom,
-            from(#aaa), to(#888));
+    color: black;
+    border-radius: 20px;
     margin-top: 15px;
+    background-color: #3FC1C9;
+    margin-bottom: 10px;
 }
 
 button:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom,
-            from(#bbb), to(#999));
+    background-color: black;
+    color: white;
+    transition: 0.2s;
+
 }
 
 .quiz-wrapper {
@@ -219,52 +148,61 @@ button:hover {
     bottom: 0;
     width: 100%;
     height: 40px;
-    text-shadow: 0px 1px 0px #fff;
-    background-image: -webkit-gradient(linear, left top, left bottom,
-            from(#ccc), to(#999));
+    background-color: black;
+
 }
 
 #footer h5 {
     text-align: center;
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: white;
 }
 
 h2 {
-    color: #333; 
-    font-weight: 100; 
-    font-size: 40px; 
-    margin: 40px 0px 20px; 
+    color: #333;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 40px 0px 20px;
 }
 
-#clockdiv {
-    font-family: sans-serif; 
-    color: #fff; 
-    display: inline-block; 
-    font-weight: 100; 
-    text-align: center; 
-    font-size: 30px; 
+#clockdive {
+    font-family: "Poppins-Regular";
+    color: white;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
 }
+
 
 #clockdiv>div {
-    padding: 10px; 
-    border-radius: 100px; 
-    background-image: -webkit-gradient(linear, left top, left bottom,
-            from(#ccc), to(#999)); 
-    display: inline-block; 
-    border: solid 1px #333;
-    width: 100px; 
-    height: 100px; 
+
+    padding: 10px;
+    border-radius: 50%;
+    background: white;
+    display: inline-block;
+    border: solid 1px black;
+    width: 100px;
+    height: 100px;
+    /* animation: squiggle 2s infinite; */
 }
 
 #clockdiv div>span {
-    padding: 15px; 
-    border-radius: 3px; 
-    background: #333; 
-    display: inline-block; 
+    padding: 15px;
+    border-radius: 50%;
+    background: black;
+    display: inline-block;
+    color: green;
 }
 
 .smalltext {
-    padding-top: 3px; 
-    font-size: 16px; 
+    padding-top: 2px;
+    font-size: 12px;
+}
+
+h2 {
+    margin-top: 20px;
+    
 }

@@ -53,7 +53,7 @@ function initializeClock(id, endtime) {
 
 
 
-const deadline = new Date(Date.parse(new Date()) + 1 * 60 * 1000);
+const deadline = new Date(Date.parse(new Date()) + .5 * 60 * 1000);
 initializeClock('clockdiv', deadline);
 
 

@@ -116,8 +116,8 @@ data = [
             b: "Rules of performance measurement",
             c: "Project Descriptions",
             d: "Level of accuracy and units of measure"
-    },
-    correctAnswer: "c"
+        },
+        correctAnswer: "c"
     },
     {
         question: "It is normally has no duration",
@@ -127,7 +127,7 @@ data = [
             c: "Schedule",
             d: "Task"
         },
-        correctAnswer: "c"
+        correctAnswer: "a"
     },
     {
         question: "Is a tabulation of activities to be included on a project schedule. ",
@@ -137,10 +137,10 @@ data = [
             c: "Activity Attributes",
             d: "Milestone"
         },
-        correctAnswer: "c"
+        correctAnswer: "b"
     },
     {
-        question: "Is a      of activities to be included on a project schedule. ",
+        question: " provide schedule-related information about each activity, such as predecessors, successors, logical relationships, leads and lags, resource requirements, constraints, imposed dates, and assumptions related to the activity",
         answers: {
             a: "Task",
             b: "Activity List",
@@ -150,155 +150,155 @@ data = [
         correctAnswer: "c"
     },
     {
-        question: "Is a tabulation of activities to be included on a project schedule. ",
+        question: "It pertains to the sequencing of project activities or tasks",
+        answers: {
+            a: "Dependency",
+            b: "Logic",
+            c: "Network Diagrams",
+            d: "Arrow Diagram Method"
+        },
+        correctAnswer: "a"
+    },
+    {
+        question: " are inherent in the nature of the work being performed on a project. They are sometimes referred to as hard logic.",
+        answers: {
+            a: "Descretionary Dependencies",
+            b: "Mandatory Dependencies",
+            c: "External Dependencies",
+            d: "Internal Dependencies"
+        },
+        correctAnswer: "b"
+    },
+    {
+        question: "Are defined by the project team, e sometimes referred to as soft logic.",
         answers: {
             a: "Task",
             b: "Activity List",
             c: "Activity Attributes",
-            d: "Milestone"
+            d: "Discretionary dependencies"
+        },
+        correctAnswer: "d"
+    },
+    {
+        question: "Involve relationships between project and nonproject activities.",
+        answers: {
+            a: "Exteral Dependencies",
+            b: "Internal Dependencies",
+            c: "Descretionary Dependencies",
+            d: "Mandatory Dependencies"
+        },
+        correctAnswer: "a"
+    },
+    {
+        question: " involve relationships between project activities that are generally inside the project team's control. ",
+        answers: {
+            a: "Exteral Dependencies",
+            b: "Internal Dependencies",
+            c: "Descretionary Dependencies",
+            d: "Mandatory Dependencies"
+        },
+        correctAnswer: "b"
+    },
+    {
+        question: "Schematic display of the logical relationships among project activities and their sequencing",
+        answers: {
+            a: "Prototype",
+            b: "Sketch",
+            c: "Attributes",
+            d: "Network Diagram"
+        },
+        correctAnswer: "d"
+    },
+    {
+        question: "Simply the starting and ending point of an activity ",
+        answers: {
+            a: "Task",
+            b: "Node",
+            c: "Activity",
+            d: "Title"
+        },
+        correctAnswer: "b"
+    },
+    {
+        question: "Occur when two or more activities follow a single node",
+        answers: {
+            a: "Burst",
+            b: "Merge",
+            c: "Link",
+            d: "Arrow"
+        },
+        correctAnswer: "a"
+    },
+    {
+        question: "occurs when two or more nodes precede a single node. ",
+        answers: {
+            a: "Burst",
+            b: "Merge",
+            c: "Link",
+            d: "Arrow"
         },
         correctAnswer: "c"
     },
     {
-        question: "Is a tabulation of activities to be included on a project schedule. ",
+        question: "Network diagramming technique in which boxes represent activities.",
         answers: {
-            a: "Task",
-            b: "Activity List",
-            c: "Activity Attributes",
-            d: "Milestone"
+            a: "Activity on Arrow",
+            b: "Network Diagramming Method",
+            c: "Precedence diagramming method ",
+            d: "Arrow Diagramming Method"
         },
         correctAnswer: "c"
     },
     {
-        question: "Is a tabulation of activities to be included on a project schedule. ",
+        question: ": A relationship in which the “from” activity or predecessor must finish before the “to” activity or successor can start. ",
         answers: {
-            a: "Task",
-            b: "Activity List",
-            c: "Activity Attributes",
-            d: "Milestone"
+            a: "Start-to-start dependencyk",
+            b: "Finish-to-start dependency",
+            c: "Finish-to-finish dependency",
+            d: "Start-to-finish dependency"
+        },
+        correctAnswer: "b"
+    },
+    {
+        question: " A relationship in which the “from” activity cannot start until the “to” activity or successor is started",
+        answers: {
+            a: "Start-to-start dependencyk",
+            b: "Finish-to-start dependency",
+            c: "Finish-to-finish dependency",
+            d: "Start-to-finish dependency"
+        },
+        correctAnswer: "a"
+    },
+    {
+        question: ": A relationship in which the “from” activity must start before the “to” activity can be finished.",
+        answers: {
+            a: "Start-to-start dependencyk",
+            b: "Finish-to-start dependency",
+            c: "Finish-to-finish dependency",
+            d: "Start-to-finish dependency"
+        },
+        correctAnswer: "d"
+    },
+    {
+        question: "A relationship in which the “from” activity must be finished before the “to” activity can be finished.",
+        answers: {
+            a: "Start-to-start dependencyk",
+            b: "Finish-to-start dependency",
+            c: "Finish-to-finish dependency",
+            d: "Start-to-finish dependency"
         },
         correctAnswer: "c"
     },
     {
-        question: "Is a tabulation of activities to be included on a project schedule. ",
+        question: "have no duration and no resources, but are occasionally needed on AOA network diagrams show logical relationships between activities.",
         answers: {
             a: "Task",
             b: "Activity List",
             c: "Activity Attributes",
-            d: "Milestone"
+            d: "Dummy Activities"
         },
         correctAnswer: "c"
-    },
-    {
-        question: "Is a tabulation of activities to be included on a project schedule. ",
-        answers: {
-            a: "Task",
-            b: "Activity List",
-            c: "Activity Attributes",
-            d: "Milestone"
-        },
-        correctAnswer: "c"
-    },
-    {
-        question: "Is a tabulation of activities to be included on a project schedule. ",
-        answers: {
-            a: "Task",
-            b: "Activity List",
-            c: "Activity Attributes",
-            d: "Milestone"
-        },
-        correctAnswer: "c"
-    },
-    {
-        question: "Is a tabulation of activities to be included on a project schedule. ",
-        answers: {
-            a: "Task",
-            b: "Activity List",
-            c: "Activity Attributes",
-            d: "Milestone"
-        },
-        correctAnswer: "c"
-    },
-    {
-        question: "Is a tabulation of activities to be included on a project schedule. ",
-        answers: {
-            a: "Task",
-            b: "Activity List",
-            c: "Activity Attributes",
-            d: "Milestone"
-        },
-        correctAnswer: "c"
-    },
-    {
-        question: "Is a tabulation of activities to be included on a project schedule. ",
-        answers: {
-            a: "Task",
-            b: "Activity List",
-            c: "Activity Attributes",
-            d: "Milestone"
-        },
-        correctAnswer: "c"
-    },
-    {
-        question: "Is a tabulation of activities to be included on a project schedule. ",
-        answers: {
-            a: "Task",
-            b: "Activity List",
-            c: "Activity Attributes",
-            d: "Milestone"
-        },
-        correctAnswer: "c"
-    },
-    {
-        question: "Is a tabulation of activities to be included on a project schedule. ",
-        answers: {
-            a: "Task",
-            b: "Activity List",
-            c: "Activity Attributes",
-            d: "Milestone"
-        },
-        correctAnswer: "c"
-    },
-    {
-        question: "Is a tabulation of activities to be included on a project schedule. ",
-        answers: {
-            a: "Task",
-            b: "Activity List",
-            c: "Activity Attributes",
-            d: "Milestone"
-        },
-        correctAnswer: "c"
-    },
-    {
-        question: "Is a tabulation of activities to be included on a project schedule. ",
-        answers: {
-            a: "Task",
-            b: "Activity List",
-            c: "Activity Attributes",
-            d: "Milestone"
-        },
-        correctAnswer: "c"
-    },
-    {
-        question: "Is a tabulation of activities to be included on a project schedule. ",
-        answers: {
-            a: "Task",
-            b: "Activity List",
-            c: "Activity Attributes",
-            d: "Milestone"
-        },
-        correctAnswer: "c"
-    },
-    {
-        question: "Is a tabulation of activities to be included on a project schedule. ",
-        answers: {
-            a: "Task",
-            b: "Activity List",
-            c: "Activity Attributes",
-            d: "Milestone"
-        },
-        correctAnswer: "c"
-    },
+    }
 ];
 // 20 questions
 // data is an array containing multiple objects.
